@@ -1,0 +1,92 @@
+* {
+    font-family:  Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#bg-picture {
+    margin-top: 90px;
+    
+    width: 100%;
+    height: 380px;
+    background-image: url(../pictures/backgroud2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#headings-position {
+    position: relative;
+    top: 90px;
+
+}
+
+#heading-picture {
+    text-align: center;
+    font-size: larger;
+   
+}
+
+#heading-picture img {
+    width: 220px;
+    height: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 25px;
+}
+
+#heading-menu {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#sub-heading {
+    text-align: center;
+}
+
+
+#para1 {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+#box1 {
+    padding-top: 50px;
+
+}
+
+#box1-1 {
+    display: inline-block;
+    align-items: center;
+    
+}
+
+#dine-btn {
+    width: 170px;
+    height: 45px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 7px;
+    align-items: center;
+}
+#take-btn {
+    width: 250px;
+    height: 45px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 7px;
+    
+}
+#break-btn {
+    width: 170px;
+    height: 45px;
+    background-color: red;
+    font-size: 14px;
+    border-radius: 7px;
+}
