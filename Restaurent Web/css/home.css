@@ -1,8 +1,66 @@
-/* div{
+div{
     background-color: black;
     
-} */
-#logo{
-    width: 0cm;
-    height: 0cm;
+}
+.logo{
+    width: 250px;
+    height: 80px;
+    al
+}
+.home{
+    margin-left: 450px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+    
+}
+.about{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+    
+}
+.menu{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+}
+.feedback{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+}
+.contact{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    margin-bottom: auto;
+}
+.button1{
+    margin-left: 60px;
+    color: #ee084d;
+    background-color: purple;
+    border: solid purple;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    align-items: center;
 }
