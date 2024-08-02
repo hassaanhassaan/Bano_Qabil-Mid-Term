@@ -7,12 +7,86 @@ body {
     background-color: black;
 }
 
-#bg-picture {
-    margin-top: 90px;
+/* ----------navbar-------- */
+#navbar {
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    height: 100px;
+    width: 100%;
     
+}
+
+#ridan-logo {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#ridan-logo>img {
+    width: 230px;
+    height: 100px;
+}
+
+#links9 {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+}
+
+.header-links {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header-links>a {
+    font-size: 16px;
+    /* font-weight: 550; */
+    text-decoration: none;
+}
+
+
+.header-links a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.header-links a:hover {
+    color: rgb(225, 71, 71);
+    text-decoration: none;
+}
+
+.header-links a:active {
+    color: #4d4d4d;
+}
+
+#order-link {
+    text-align: center;
+    padding-top: 7px;
+
+    display: inline-block;
+    margin-left: 30px;
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    border-radius: 7px;
+}
+
+#order-link>a {
+    vertical-align: middle;
+    font-size: 16px;
+    /* font-weight: 550; */
+    text-decoration: none;
+}
+
+/* ***********mian body********** */
+#bg-picture {
+    margin-top: 100px;
     width: 100%;
     height: 380px;
-    background-image: url(../pictures/backgroud2.png);
+    background-image: url(../pictures/pic2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -27,6 +101,7 @@ body {
 #heading-picture {
     text-align: center;
     font-size: larger;
+    
    
 }
 
@@ -62,31 +137,188 @@ body {
 }
 
 #box1-1 {
-    display: inline-block;
-    align-items: center;
+  text-align: center;
+   
+    
     
 }
 
 #dine-btn {
+    margin: 0px 15px 0px 15px;
     width: 170px;
-    height: 45px;
+    height: 50px;
     background-color: red;
     font-size: 14px;
     border-radius: 7px;
-    align-items: center;
+    
 }
 #take-btn {
-    width: 250px;
-    height: 45px;
+    margin: 0px 15px 0px 15px;
+    width: 290px;
+    height: 50px;
     background-color: red;
     font-size: 14px;
     border-radius: 7px;
     
 }
 #break-btn {
+    margin: 0px 15px 0px 15px;
     width: 170px;
-    height: 45px;
+    height: 50px;
     background-color: red;
     font-size: 14px;
     border-radius: 7px;
+}
+
+.btns {
+    display: inline-block;
+    
+}
+
+.heading2>h1 {
+    padding-bottom: 0;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(102, 88, 226, 0.838)
+}
+
+#box2 {
+    margin: 10px 40px 10px 40px;
+}
+
+.image-size {
+    margin-left: 20px;
+    width: 260px;
+    height: 390px;
+}
+
+
+#last-iamge {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* /**************footer************* */
+
+#footer-container {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 400px;
+    padding-top: 60px;
+}
+
+.box1 {
+    word-spacing: 10px;
+    line-height: 25px;
+    margin-right: 50px;
+    margin-left: 80px;
+    display: inline-block;
+    width: 250px;
+    height: 300px
+}
+
+
+.box2 {
+
+
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 250px;
+    height: 300px
+}
+
+.box3 {
+
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 250px;
+    height: 300px
+}
+
+.box4 {
+
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 170px;
+    height: 300px
+}
+
+.social-icons> ion-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons>ion-icon:hover {
+    color: red;
+}
+
+.social-icons>ion-icon:active {
+    color: aqua;
+}
+
+.social-icons-border {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+
+
+.pointer {
+    line-height: 30px;
+    
+}
+
+.pointer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.pointer a:hover {
+    color: rgb(225, 71, 71);
+    text-decoration: none;
+}
+
+.pointer a:active {
+    color: #4d4d4d;
+}
+
+#email {
+
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#email::placeholder {
+    color: grey;
+    font-size: 15px;
+}
+
+
+
+#button {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#button:hover {
+    background-color: #ab3737;
 }
